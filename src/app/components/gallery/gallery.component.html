@@ -1,0 +1,20 @@
+
+   <div>
+    <h1>EXPOSICIÓN</h1>
+    <h2>Monet</h2>
+    <h3>08/03/2022 - 12/06/2022</h3>
+</div>
+  <section>
+    <article>
+      <ul>
+        <li *ngFor="let picture of galleryInfo.pictures">
+            <h3>{{picture.name}}</h3>
+            <p>{{picture.artist}}</p>
+            <p>{{picture.year}}</p>
+            <img src="{{picture.image.src}}" alt="{{picture.image.alt}}">
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  

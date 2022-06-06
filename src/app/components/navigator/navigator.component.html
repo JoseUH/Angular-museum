@@ -1,0 +1,17 @@
+<header>
+    <nav>
+        <ul [ngClass]="{'light': !isDark, 'dark': isDark }">
+            <li>
+                <img src="https://cdn.pixabay.com/photo/2016/09/25/05/34/art-1693169_1280.png" alt="">
+            </li>
+            <li *ngFor="let navElement of navigatorInfo">
+               <a href="{{navElement.link}}">{{navElement.content}}</a>
+            </li>
+            <li>
+                <button (click)="changeTheme()">{{theme}}</button>
+            </li>
+        </ul>
+    </nav>
+   
+    
+</header>

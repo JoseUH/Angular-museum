@@ -1,0 +1,79 @@
+.madrid {
+  @media (max-width: 600px) {
+    display: none;
+  }
+
+  width: 100%;
+  height: 40vh;
+  
+}
+
+footer {
+  @media (max-width: 600px) {
+    display: none;
+  }
+
+  width: 100%;
+  height: 60vh;
+
+  background-color: #710c0c;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  .redes {
+    ul {
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+        a {
+        img {
+          padding-bottom: 10px;
+          width: 10vh;
+        }
+      }
+      
+      
+    }
+  }
+  .horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+  }
+
+  .gobierno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a {
+      img {
+        width: 40vh;
+      }
+    }
+  }
+  .exposiciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     ul{
+       
+       li{
+         display: flex;
+         align-items: center;
+         padding: 10px;
+         img{
+           width: 10vh;
+         }
+         h3{
+           padding: 10px;
+         }
+       }
+     }
+  }
+}
