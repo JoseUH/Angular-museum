@@ -24,6 +24,7 @@ nav {
         a {
           
           font-size: 2rem;
+        
           text-transform: uppercase;
           transition: all 0.5s ease-in-out;
           color: white;
@@ -37,7 +38,7 @@ nav {
           }
         }
         img{
-            width: 100px;
+            width: 60px;
         }
       }
     }
@@ -60,6 +61,10 @@ nav {
     background-color: black;
     :hover{
       background-color: #710c0c;
+    }
+    .invert{
+      -webkit-filter: invert(100%);
+    filter: invert(100%);
     }
   }
   

@@ -36,6 +36,10 @@
               height: 300px;
               object-fit: cover;
               border: solid 4px black;
+              &:hover{
+                transform: scale(1.2);
+                cursor: pointer;
+              }
           }
       }
   }

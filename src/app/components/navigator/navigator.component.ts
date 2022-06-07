@@ -17,7 +17,7 @@ export class NavigatorComponent implements OnInit {
       content: "Home",
       link: "#home"
     }, {
-      content: "Gallery",
+      content: "Galería",
       link: "#gallery"
     },
     {
